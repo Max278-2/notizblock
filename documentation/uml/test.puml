@@ -1,4 +1,4 @@
-@startuml
+@startuml testUml
 class Note {
   - title: String
   - content: String
