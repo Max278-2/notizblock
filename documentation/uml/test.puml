@@ -1,0 +1,7 @@
+@startuml
+class Note {
+  - title: String
+  - content: String
+  + save(): void
+}
+@enduml
