@@ -23,6 +23,25 @@
       <version>${javafx.version}</version>
     </dependency>
 
+    <!-- JavaFX Graphics -->
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-fxml</artifactId>
+        <version>${javafx.version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-base</artifactId>
+        <version>${javafx.version}</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-graphics</artifactId>
+        <version>${javafx.version}</version>
+    </dependency>
+
     <!-- Junit Tests -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -40,6 +59,9 @@
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>${javafx-maven-plugin.version}</version>
+                <configuration>
+                    <mainClass>com.github.max.Main</mainClass>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
