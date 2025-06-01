@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.max.ui.controller.MainViewController">
    <children>
-      <Button layoutX="14.0" layoutY="20.0" mnemonicParsing="false" text="New Note" textAlignment="CENTER" onAction="#handleClick"/>
+      
    </children>
 </AnchorPane>
